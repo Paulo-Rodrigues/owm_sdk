@@ -8,16 +8,15 @@ Gem::Specification.new do |spec|
   spec.authors = ["Paulo Rodrigues"]
   spec.email = ["paulor2222@gmail.com"]
 
-  spec.summary = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description = "TODO: Write a longer description or delete this line."
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.summary = "Ruby SDK for OpenWeatherMap forecasts API"
+  spec.description   = "A lightweight Ruby SDK for accessing OpenWeatherMap's forecast endpoint. " \
+                       "It allows developers to easily fetch weather forecast data for a given city ID."
+  spec.homepage      = "https://github.com/Paulo-Rodrigues/owm_sdk"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.1.0"
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
-
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
+  spec.metadata["source_code_uri"] = "https://github.com/Paulo-Rodrigues/owm_sdk"
   spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
   spec.metadata["rubygems_mfa_required"] = "true"
 
