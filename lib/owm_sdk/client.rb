@@ -14,7 +14,7 @@ class OwmSdk::Client
   end
 
   def fetch(city_id)
-    res = @conn.get("forecast", { id: city_id, appid: @api_key, units: "metric" })
+    res = @conn.get("forecast", { id: city_id, appid: @api_key, units: "metric", lang: "pt_br" })
 
     handle_errors(res)
     handle_response(res)
